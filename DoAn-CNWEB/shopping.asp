@@ -110,7 +110,7 @@
                                 <h4>$25.00</h4>
                             </div>
                             <div class="shopping-cost-btn">
-                                <button type="button">Pay</button>
+                                <button href="#" data-bs-toggle="modal" data-bs-target="#confirm-delete" title="Delete" type="button">Pay</button>
                             </div>
                         </div>
                     </div>
@@ -126,6 +126,7 @@
             </div>
             <div class="modal-content">
                 <h4> Pay Successfully!</h4>
+                <p>Thanks for your purchase</p>
             </div>
             <div class="modal-option">
                 <a class="modal-btn modal-btn-clear">Continue</a>
@@ -133,6 +134,8 @@
             </div>
         </div>
     </div>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>

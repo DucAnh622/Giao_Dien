@@ -590,6 +590,12 @@ table td {
 .modal-upload-btn {
     padding: 8px 16px;
     color: #2a2a2a;
+    transition: all 0.3s;
+}
+
+.modal-upload-btn:hover {
+    cursor: pointer;
+    color: #71cd14;
 }
 
 .modal-option {

@@ -52,7 +52,7 @@
                                 <li><a href="" class="details-size-link">XL</a></li>
                                 <li><a href="" class="details-size-link">XXL</a></li>
                             </ul>
-                            <a href="" class="details-buy">Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" class="details-buy" data-bs-toggle="modal" data-bs-target="#confirm-delete" title="Delete">Add to cart <i class="fa-solid fa-cart-shopping"></i></a>
                             <p class="details-review-text"> Made in Eiser, make your style. This Jeans takes its cues from nature with woven canvas and a speckled sole. Peep the cork material on the insole and heel tab for an extra earthy touch.</p>
                             <div class="details-view">
                                 <ul class="details-star-list">
@@ -87,7 +87,9 @@
                 <button type="button" class="modal-btn-cancel" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
-    </div>  
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>

@@ -264,15 +264,11 @@
     text-decoration: none;
 }
 
-.section-right-item-link:hover .quantity {
-    background-color: #71cd14;
-}
-
 .quantity {
     color: #fff;
     border-radius: 50%;
     border: 2px solid #fff;
-    background-color: #2a2a2a;
+    background-color: #dc3545;
     padding: 2px 5px;
     font-size: 11px;
     position: absolute;
